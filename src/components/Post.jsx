@@ -16,11 +16,11 @@ import { red } from "@mui/material/colors";
 
 const Post = () => {
   return (
-    <Card>
+    <Card sx={{ margin: 5 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            R
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="paarth-post">
+            P
           </Avatar>
         }
         action={
@@ -28,8 +28,8 @@ const Post = () => {
             <MoreVert />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title="Paarth"
+        subheader="September 14, 2023"
       />
       <CardMedia
         component="img"
